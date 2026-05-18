@@ -22,6 +22,12 @@ A web-based timetable generation system designed to prevent scheduling conflicts
 4. Conflicting schedules are prevented
 5. Final timetable is generated and displayed
 
+## Challenges Faced
+- Preventing teacher schedule conflicts
+- Managing overlapping batch timings
+- Organizing timetable structure dynamically
+- Validating schedules correctly
+
 ## Problems Solved
 - Prevents teachers from being assigned to multiple classes at the same time
 - Avoids overlapping batch schedules
