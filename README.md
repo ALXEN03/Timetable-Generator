@@ -1,6 +1,15 @@
 # CMR Timetable Planner
 
-A role-based timetable management system designed to prevent scheduling conflicts between teachers and batches. The system allows teachers to manage class schedules efficiently while providing students with a clean read-only timetable view.
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+A role-based timetable management system that helps teachers create and manage class schedules efficiently. The system prevents timetable conflicts by ensuring that a teacher cannot be assigned to multiple sections at the same time slot.
+
+## Problem Statement
+Manual timetable scheduling can lead to teacher conflicts, overlapping class timings, and inefficient timetable management.
 
 ## Live Demo
 [Open Project](https://alxen03.github.io/Timetable-Generator/)
@@ -8,14 +17,12 @@ A role-based timetable management system designed to prevent scheduling conflict
 ## Features
 - Conflict-free timetable generation
 - Teacher schedule conflict prevention
-- Batch overlap prevention
-- Teacher dashboard interface
+- Dynamic class and section management
+- Subject and teacher allocation system
 - Student timetable view
-- Class management system
-- Subject and teacher allocation
 - PDF timetable export
-- Dynamic timetable validation
 - Responsive dashboard UI
+- Read-only student timetable access
 
 ## Technologies Used
 - HTML
@@ -23,27 +30,56 @@ A role-based timetable management system designed to prevent scheduling conflict
 - JavaScript
 
 ## How It Works
-1. Teachers create and manage classes
-2. Subjects and teachers are assigned
-3. Timetables are generated dynamically
-4. System validates schedules automatically
-5. Teacher conflicts and overlapping batches are prevented
-6. Students can access read-only timetable views
-7. Timetables can be exported as PDF
+1. Teachers log in to the system
+2. Classes and sections can be created dynamically
+3. Subjects and teachers are assigned
+4. Teachers generate timetables for each section
+5. The system validates schedules automatically
+6. If a teacher is already assigned to another section at the same time slot, the system prevents duplicate allocation
+7. Students can view and download their class timetable
+
+## Conflict Prevention Logic
+If a teacher is already assigned to a section during a specific time slot, the system prevents assigning the same teacher to another section at the same time.
+
+### Example
+- HTML Teacher A is assigned to Cloud Computing A at 8:30 AM
+- If the same teacher is assigned to Cloud Computing B at 8:30 AM
+- The system blocks the allocation and shows a conflict warning
+
+This prevents overlapping teacher schedules and ensures timetable accuracy.
 
 ## User Roles
 
 ### Teacher Panel
 - Create and manage timetables
-- Assign teachers and subjects
-- Prevent schedule conflicts
-- Manage classes dynamically
+- Add or remove class sections
+- Assign subjects and teachers
+- Prevent teacher scheduling conflicts
 - Export timetable as PDF
 
 ### Student Panel
 - View class timetable
-- Access read-only schedules
+- Select class section
 - Download timetable as PDF
+- Access read-only timetable view
+
+## Manage Classes
+Teachers can dynamically create and manage sections such as:
+- CC A
+- CC B
+- General A
+- General B
+- DS A
+- DS B
+
+Sections can also be renamed or removed directly from the dashboard.
+
+## Subjects & Teachers
+Teachers can:
+- Add subjects
+- Assign multiple teachers to subjects
+- Manage subject-teacher allocation
+- Organize timetable scheduling efficiently
 
 ## Challenges Faced
 - Preventing teacher schedule conflicts
@@ -52,17 +88,17 @@ A role-based timetable management system designed to prevent scheduling conflict
 - Validating schedules correctly
 
 ## Problems Solved
-- Prevents teachers from being assigned to multiple classes at the same time
-- Avoids overlapping batch schedules
+- Prevents duplicate teacher allocation
+- Avoids overlapping class schedules
 - Reduces manual timetable management errors
 - Simplifies timetable organization for colleges
 
 ## Key Functionalities
-- Create and manage multiple classes
-- Assign teachers to subjects
+- Create and manage multiple sections
 - Generate structured weekly timetables
 - Prevent duplicate teacher allocation at the same time slot
 - Export generated timetable as PDF
+- Student timetable access system
 
 ## Preview
 
@@ -71,15 +107,17 @@ A role-based timetable management system designed to prevent scheduling conflict
 
 ### Teacher Timetable Dashboard
 ![Teacher Dashboard](preview2.png)
-![Manage Classes](preview3.png)
 
 ### Manage Classes
-![Subjects & Teachers](preview4.png)
+![Manage Classes](preview3.png)
 
 ### Subjects & Teachers
-![Student View](preview5.png)
+![Subjects & Teachers](preview4.png)
 
 ### Student Timetable View
+![Student View](preview5.png)
+
+### PDF Export Feature
 ![PDF Export](preview6.png)
 
 ## Project Structure
