@@ -1,4 +1,4 @@
-# CMR Timetable Planner
+# College Timetable Planner
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
@@ -77,7 +77,7 @@ Sections can also be renamed or removed directly from the dashboard.
 ## Subjects & Teachers
 Teachers can:
 - Add subjects
-- Assign multiple teachers to subjects
+- Assign teachers to subjects
 - Manage subject-teacher allocation
 - Organize timetable scheduling efficiently
 
@@ -138,8 +138,9 @@ Timetable-Generator/
 - Cloud data synchronization
 - Better timetable optimization logic
 
-## Author
-Nikhil Rejith
+## Authors
+- Nikhil Rejith
+- Sri Parjanya
 
 ## License
 This project is licensed under the MIT License.
