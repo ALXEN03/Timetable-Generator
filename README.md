@@ -66,18 +66,23 @@ A role-based timetable management system designed to prevent scheduling conflict
 
 ## Preview
 
-### Teacher Dashboard
-![Teacher Dashboard](preview1.png)
+### Login Page
+![Login Page](preview1.png)
+
+### Teacher Timetable Dashboard
+![Teacher Dashboard](preview2.png)
 
 ### Manage Classes
-![Manage Classes](preview2.png)
+![Manage Classes](preview3.png)
 
 ### Subjects & Teachers
-![Subjects & Teachers](preview3.png)
+![Subjects & Teachers](preview4.png)
 
 ### Student Timetable View
-![Student View](preview4.png)
+![Student View](preview5.png)
 
+### PDF Export Feature
+![PDF Export](preview6.png)
 ## Project Structure
 ```bash
 Timetable-Generator/
