@@ -12,7 +12,7 @@ A role-based timetable management system that helps teachers create and manage c
 Manual timetable scheduling can lead to teacher conflicts, overlapping class timings, and inefficient timetable management.
 
 ## Live Demo
-[Open Project](https://alxen03.github.io/Timetable-Generator/)
+[Open Project](https://alxen03.github.io/Timetable-Management-System/)
 
 ## Features
 - Conflict-free timetable generation
